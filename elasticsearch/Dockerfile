@@ -11,5 +11,7 @@ RUN elasticsearch-plugin install --batch com.floragunn:search-guard-6:6.2.1-21.0
 	&& chown -R elasticsearch config/sg/ \
 	&& chmod -R go= config/sg/
 
+RUN elasticsearch-plugin install x-pack
+
 # Add your elasticsearch plugins setup here
 # Example: RUN elasticsearch-plugin install analysis-icu

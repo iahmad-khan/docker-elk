@@ -12,3 +12,6 @@ elasticsearch.username: "kibanaserver"
 elasticsearch.password: "kibanaserver"
 
 searchguard.cookie.password: "123567818187654rwrwfsfshdhdhtegdhfzftdhncn"
+
+xpack.security.enabled: false
+xpack.ml.enabled: false
